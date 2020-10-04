@@ -137,3 +137,49 @@ while(decision == "1"):
 print()
 time.sleep(1)
 #
+
+# --- Section Author: Khurshid ---
+print("There is a warrior whos stands on your way!")
+print("1. Fight him!")
+print("2. Try negotiating with him")
+print() #printing extra empty line
+decision = ""
+while(decision == ""):
+    decision = input]("Pick a number: ")
+    print()
+    if (decision  == "1"):
+        print("You got injured but you steal his money!!!")
+        player health -= 20
+        print("Your health now:")
+        print(player health)
+    elif (decision == "2"):
+        print("You are able to get him to work with you on your mission")
+        player_items.append("Warrior")
+        print("Your item now:")
+        print(player_items)
+print()
+time.sleep(1)
+#
+
+print("You are tired of walking all the time and you have to get either a bike or horse, your choice:")
+print("1. Buy a bike")
+print("2. Buy a horse")
+print()
+decision = ""
+while(decision == "1"):
+    decision = input("Pick a number: ")
+    print("Horse = 10 units; Bike = 5 units")
+    print()
+    if (decision == "1"):
+        print("The horse is yours!")
+        player_money -= 10
+        print("your money now: ")
+        print(player_money)
+    elif (decision == "2"):
+        print("Hey biker!")
+        player_money -=  5
+        print("Your money now: ")
+        print(player_money)
+print()
+time.sleep(1)
+#
